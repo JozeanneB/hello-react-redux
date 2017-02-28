@@ -11,7 +11,7 @@ const store = createStore(
   (state = {}) => state,
   applyMiddleware(thunk) // applyMiddleware- by redux;
   // thunk- allows to dispacth unsynchronous
-)
+);
 
 render(
   <Provider store={store}>
