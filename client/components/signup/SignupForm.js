@@ -23,7 +23,8 @@ class SignupForm extends React.Component {
 
   onSubmit(event){
     event.preventDefault();
-    console.log(this.state);
+    this.props.userSignupRequest(this.state);
+    //console.log(this.state);
   }
 
   render() {
