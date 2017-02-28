@@ -1,0 +1,21 @@
+{
+  "name": "hello-react-redux",
+  "version": "1.0.0",
+  "description": "React & redux ",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon --watch server --exec babel-node -- server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/JozeanneB/hello-react-redux.git",
+  "author": "JozeanneB <jozeanne.belomo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.23.0",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "nodemon": "^1.11.0"
+  }
+}
